@@ -1,0 +1,14 @@
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\bin\Debug\net9.0\EXSYS.DAL.deps.json
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\bin\Debug\net9.0\EXSYS.DAL.runtimeconfig.json
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\bin\Debug\net9.0\EXSYS.DAL.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\bin\Debug\net9.0\EXSYS.DAL.pdb
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\obj\Debug\net9.0\EXSYS.DAL.csproj.AssemblyReference.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\obj\Debug\net9.0\EXSYS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\obj\Debug\net9.0\EXSYS.DAL.AssemblyInfoInputs.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\obj\Debug\net9.0\EXSYS.DAL.AssemblyInfo.cs
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\obj\Debug\net9.0\EXSYS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\obj\Debug\net9.0\EXSYS.DAL.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\obj\Debug\net9.0\refint\EXSYS.DAL.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\obj\Debug\net9.0\EXSYS.DAL.pdb
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\obj\Debug\net9.0\EXSYS.DAL.genruntimeconfig.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.DAL\obj\Debug\net9.0\ref\EXSYS.DAL.dll

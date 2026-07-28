@@ -1,0 +1,15 @@
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\bin\Debug\net9.0\EXSYS.BLL.deps.json
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\bin\Debug\net9.0\EXSYS.BLL.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\bin\Debug\net9.0\EXSYS.BLL.pdb
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\bin\Debug\net9.0\EXSYS.DAL.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\bin\Debug\net9.0\EXSYS.DAL.pdb
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.csproj.AssemblyReference.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.AssemblyInfoInputs.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.AssemblyInfo.cs
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.csproj.CoreCompileInputs.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.csproj.Up2Date
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\refint\EXSYS.BLL.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.pdb
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\ref\EXSYS.BLL.dll

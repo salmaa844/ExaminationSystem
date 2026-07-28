@@ -1,0 +1,6 @@
+@EXSYS.PL_HostAddress = http://localhost:5032
+
+GET {{EXSYS.PL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
