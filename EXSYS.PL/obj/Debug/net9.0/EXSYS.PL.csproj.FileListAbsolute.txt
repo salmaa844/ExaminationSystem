@@ -157,3 +157,7 @@ C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\refint\EXSYS.PL.dl
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.pdb
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.genruntimeconfig.cache
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\ref\EXSYS.PL.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.sourcelink.json
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Mapster.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Mapster.Core.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

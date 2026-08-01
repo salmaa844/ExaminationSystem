@@ -10,23 +10,73 @@ using System.Threading.Tasks;
 
 namespace EXSYS.DAL.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(DbContextOptions options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
         }
 
-        //public DbSet<Student> Students { get; set; }
-        //public DbSet<Instructor> Instructors { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Instructor> Instructors { get; set; }
+        public DbSet<Exam> Exams { get; set; }
+        public DbSet<ExamStudent> ExamStudents { get; set; }
+
+        public DbSet<Question> Questions { get; set; }
+        public DbSet<ExamQuestion> ExamQuestions { get; set; }
+        public DbSet<StudentAnswer> StudentAnswers { get; set; }
+        public DbSet<Choice> Choices { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<StudentCourse> StudentCourses { get; set; }
 
 
-        protected override void OnModelCreating(ModelBuilder builder)
+
+       
+           protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
             builder.Entity<ApplicationUser>().ToTable("Users");
             builder.Entity<IdentityRole>().ToTable("Roles");
             builder.Entity<IdentityUserRole<string>>().ToTable("UserRoles");
+
+
+            foreach (var entityType in builder.Model.GetEntityTypes()
+            .Where(t => typeof(AuditableEntity).IsAssignableFrom(t.ClrType)))
+            {
+                builder.Entity(entityType.ClrType)
+                    .HasOne(typeof(ApplicationUser), "CreatedBy")
+                    .WithMany()
+                    .HasForeignKey("CreatedById")
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                builder.Entity(entityType.ClrType)
+                    .HasOne(typeof(ApplicationUser), "UpdatedBy")
+                    .WithMany()
+                    .HasForeignKey("UpdatedById")
+                    .OnDelete(DeleteBehavior.Restrict);
+            }
+
+            builder.Entity<Exam>()
+                .HasOne(e => e.Instructor)
+                .WithMany(i => i.Exams)
+                .HasForeignKey(e => e.InstructorID)
+                .OnDelete(DeleteBehavior.Restrict);
+
+
+            builder.Entity<Exam>()
+                .HasOne(e => e.Course)
+                .WithMany(c => c.Exams)
+                .HasForeignKey(e => e.CourseId)
+                .OnDelete(DeleteBehavior.Restrict);
+            builder.Entity<ApplicationUser>()
+            .HasIndex(u => u.Email)
+            .IsUnique();
+
+
         }
+
+
     }
+    
 }

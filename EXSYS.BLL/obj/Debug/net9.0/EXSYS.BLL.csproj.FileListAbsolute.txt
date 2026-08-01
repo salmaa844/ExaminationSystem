@@ -13,3 +13,4 @@ C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.dll
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\refint\EXSYS.BLL.dll
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.pdb
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\ref\EXSYS.BLL.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.BLL\obj\Debug\net9.0\EXSYS.BLL.sourcelink.json

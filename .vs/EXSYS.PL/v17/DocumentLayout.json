@@ -3,36 +3,203 @@
   "WorkspaceRootPath": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260727171512_RenameIdentityTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EXSYS.DAL\\Migrations\\20260727171512_RenameIdentityTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\repositry\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\repositry\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\repositry\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\repositry\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260726091810_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EXSYS.DAL\\Migrations\\20260726091810_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\exsys.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\exsys.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|solutionrelative:exsys.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.bll\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|solutionrelative:exsys.bll\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.bll\\exsys.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|solutionrelative:exsys.bll\\exsys.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\dto\\responce\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\dto\\responce\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mass\\AppData\\Roaming\\Microsoft\\UserSecrets\\aa9de11d-9c27-4f01-b1a9-0061f4662759\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|solutionrelative:exsys.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.pl\\exsys.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|solutionrelative:exsys.pl\\exsys.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.pl\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|solutionrelative:exsys.pl\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.pl\\extensions\\addauthenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|solutionrelative:exsys.pl\\extensions\\addauthenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.pl\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|solutionrelative:exsys.pl\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.pl\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|solutionrelative:exsys.pl\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|solutionrelative:exsys.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.bll\\service\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|solutionrelative:exsys.bll\\service\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.bll\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|solutionrelative:exsys.bll\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\utils\\iseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\utils\\iseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\utils\\rolesseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\utils\\rolesseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\dto\\responce\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\dto\\responce\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.pl\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|solutionrelative:exsys.pl\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\dto\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\dto\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.bll\\service\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|solutionrelative:exsys.bll\\service\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.bll\\exsys.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{308C2538-108B-42F5-B28E-B8D3D64C54F3}|EXSYS.BLL\\EXSYS.BLL.csproj|solutionrelative:exsys.bll\\exsys.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\dto\\responce\\resetpassswordresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\dto\\responce\\resetpassswordresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\dto\\request\\resetpassswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\dto\\request\\resetpassswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\dto\\responce\\forgotpasswordresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\dto\\responce\\forgotpasswordresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\dto\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\dto\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\examquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\examquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\studentanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\studentanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\examstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\examstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260729122952_CreateAllModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EXSYS.DAL\\Migrations\\20260729122952_CreateAllModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260729122350_CreateAllModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EXSYS.DAL\\Migrations\\20260729122350_CreateAllModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\model\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\model\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\enums\\questionlevel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\enums\\questionlevel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\enums\\examtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\enums\\examtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\migrations\\20260728150039_studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\migrations\\20260728150039_studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\migrations\\20260727171512_renameidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\migrations\\20260727171512_renameidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.pl\\exsys.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB6FEEC3-0B05-457F-8B83-815E23913514}|EXSYS.PL\\EXSYS.PL.csproj|solutionrelative:exsys.pl\\exsys.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\migrations\\20260726091810_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\migrations\\20260726091810_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\migrations\\20260730082753_updatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\migrations\\20260730082753_updatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\migrations\\20260729123236_createallmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\migrations\\20260729123236_createallmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\migrations\\20260728150516_instructorsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\migrations\\20260728150516_instructorsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|c:\\users\\mass\\source\\repos\\exsys.pl\\exsys.dal\\migrations\\20260731061153_changeapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CE0C11-4008-4290-A1E4-A5F497EFDAF3}|EXSYS.DAL\\EXSYS.DAL.csproj|solutionrelative:exsys.dal\\migrations\\20260731061153_changeapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,115 +209,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260727171512_RenameIdentityTables.cs",
-              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260727171512_RenameIdentityTables.cs",
-              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260727171512_RenameIdentityTables.cs",
-              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260727171512_RenameIdentityTables.cs",
-              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260727171512_RenameIdentityTables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T17:15:13.096Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20260726091810_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260726091810_Initial.cs",
-              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260726091810_Initial.cs",
-              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260726091810_Initial.cs",
-              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260726091810_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T09:18:10.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\appsettings.json",
-              "RelativeDocumentMoniker": "EXSYS.PL\\appsettings.json",
-              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\appsettings.json",
-              "RelativeToolTip": "EXSYS.PL\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-26T08:38:35.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EXSYS.BLL",
-              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\EXSYS.BLL.csproj",
-              "RelativeDocumentMoniker": "EXSYS.BLL\\EXSYS.BLL.csproj",
-              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\EXSYS.BLL.csproj",
-              "RelativeToolTip": "EXSYS.BLL\\EXSYS.BLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-25T17:14:03.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "EXSYS.DAL\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "EXSYS.DAL\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T14:56:21.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EXSYS.PL",
-              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\EXSYS.PL.csproj",
-              "RelativeDocumentMoniker": "EXSYS.PL\\EXSYS.PL.csproj",
-              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\EXSYS.PL.csproj",
-              "RelativeToolTip": "EXSYS.PL\\EXSYS.PL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-25T17:17:23.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Program.cs",
-              "RelativeDocumentMoniker": "EXSYS.PL\\Program.cs",
-              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Program.cs",
-              "RelativeToolTip": "EXSYS.PL\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T14:58:19.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "EXSYS.PL\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "EXSYS.PL\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T14:58:28.197Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -177,8 +240,654 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Repositry\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Repositry\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Repositry\\IGenericRepository.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Repositry\\IGenericRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T09:05:48.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Repositry\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Repositry\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Repositry\\GenericRepository.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Repositry\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T09:05:35.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\mass\\AppData\\Roaming\\Microsoft\\UserSecrets\\aa9de11d-9c27-4f01-b1a9-0061f4662759\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\aa9de11d-9c27-4f01-b1a9-0061f4662759\\secrets.json",
+              "ToolTip": "C:\\Users\\mass\\AppData\\Roaming\\Microsoft\\UserSecrets\\aa9de11d-9c27-4f01-b1a9-0061f4662759\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\aa9de11d-9c27-4f01-b1a9-0061f4662759\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-01T08:18:51.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "EXSYS.PL\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\WeatherForecast.cs",
+              "RelativeToolTip": "EXSYS.PL\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T08:13:37.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddAuthenticationServices.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Extensions\\AddAuthenticationServices.cs",
+              "RelativeDocumentMoniker": "EXSYS.PL\\Extensions\\AddAuthenticationServices.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Extensions\\AddAuthenticationServices.cs",
+              "RelativeToolTip": "EXSYS.PL\\Extensions\\AddAuthenticationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T08:05:06.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Program.cs",
+              "RelativeDocumentMoniker": "EXSYS.PL\\Program.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Program.cs",
+              "RelativeToolTip": "EXSYS.PL\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T14:58:19.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\Service\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "EXSYS.BLL\\Service\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\Service\\AuthenticationService.cs",
+              "RelativeToolTip": "EXSYS.BLL\\Service\\AuthenticationService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:47:08.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EXSYS.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\EXSYS.DAL.csproj",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\EXSYS.DAL.csproj",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\EXSYS.DAL.csproj",
+              "RelativeToolTip": "EXSYS.DAL\\EXSYS.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-29T07:54:15.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Extensions\\ApplicationServiceExtensions.cs",
+              "RelativeDocumentMoniker": "EXSYS.PL\\Extensions\\ApplicationServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Extensions\\ApplicationServiceExtensions.cs",
+              "RelativeToolTip": "EXSYS.PL\\Extensions\\ApplicationServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T07:56:06.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Responce\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\DTO\\Responce\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Responce\\LoginResponse.cs",
+              "RelativeToolTip": "EXSYS.DAL\\DTO\\Responce\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:27:13.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "EXSYS.PL\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "EXSYS.PL\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T19:59:02.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T08:44:19.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterResponse.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Responce\\RegisterResponse.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\DTO\\Responce\\RegisterResponse.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Responce\\RegisterResponse.cs",
+              "RelativeToolTip": "EXSYS.DAL\\DTO\\Responce\\RegisterResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:17:27.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\Service\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "EXSYS.BLL\\Service\\IEmailSender.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\Service\\IEmailSender.cs",
+              "RelativeToolTip": "EXSYS.BLL\\Service\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T05:29:32.993Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\Service\\EmailSender.cs",
+              "RelativeDocumentMoniker": "EXSYS.BLL\\Service\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\Service\\EmailSender.cs",
+              "RelativeToolTip": "EXSYS.BLL\\Service\\EmailSender.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T05:30:05.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RolesSeedData.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Utils\\RolesSeedData.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Utils\\RolesSeedData.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Utils\\RolesSeedData.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Utils\\RolesSeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T20:49:44.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\appsettings.json",
+              "RelativeDocumentMoniker": "EXSYS.PL\\appsettings.json",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\appsettings.json",
+              "RelativeToolTip": "EXSYS.PL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-26T08:38:35.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IseedData.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Utils\\IseedData.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Utils\\IseedData.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Utils\\IseedData.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Utils\\IseedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T20:49:43.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\ApplicationUser.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T12:04:21.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20260731061153_changeApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260731061153_changeApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260731061153_changeApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260731061153_changeApplicationDbContext.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260731061153_changeApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T06:11:54.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Request\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\DTO\\Request\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Request\\RegisterRequest.cs",
+              "RelativeToolTip": "EXSYS.DAL\\DTO\\Request\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:17:05.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "EXSYS.PL\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "EXSYS.PL\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T14:58:28.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\Service\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "EXSYS.BLL\\Service\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\Service\\IAuthenticationService.cs",
+              "RelativeToolTip": "EXSYS.BLL\\Service\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:14:56.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EXSYS.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\EXSYS.BLL.csproj",
+              "RelativeDocumentMoniker": "EXSYS.BLL\\EXSYS.BLL.csproj",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.BLL\\EXSYS.BLL.csproj",
+              "RelativeToolTip": "EXSYS.BLL\\EXSYS.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-25T17:14:03.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ForgotPasswordResponse.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Responce\\ForgotPasswordResponse.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\DTO\\Responce\\ForgotPasswordResponse.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Responce\\ForgotPasswordResponse.cs",
+              "RelativeToolTip": "EXSYS.DAL\\DTO\\Responce\\ForgotPasswordResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:40:09.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ResetPassswordResponse.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Responce\\ResetPassswordResponse.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\DTO\\Responce\\ResetPassswordResponse.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Responce\\ResetPassswordResponse.cs",
+              "RelativeToolTip": "EXSYS.DAL\\DTO\\Responce\\ResetPassswordResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:41:35.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ResetPassswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Request\\ResetPassswordRequest.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\DTO\\Request\\ResetPassswordRequest.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Request\\ResetPassswordRequest.cs",
+              "RelativeToolTip": "EXSYS.DAL\\DTO\\Request\\ResetPassswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:42:25.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\DTO\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\DTO\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "EXSYS.DAL\\DTO\\Request\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:26:31.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\Student.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Student.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:54:47.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Instructor.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\Instructor.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Instructor.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\Instructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T15:04:48.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ExamQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\ExamQuestion.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\ExamQuestion.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\ExamQuestion.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\ExamQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T08:50:29.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Exam.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\Exam.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Exam.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\Exam.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T07:50:08.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20260730082753_updateModel.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260730082753_updateModel.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260730082753_updateModel.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260730082753_updateModel.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260730082753_updateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T08:27:54.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StudentCourse.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\StudentCourse.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\StudentCourse.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\StudentCourse.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\StudentCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T08:30:15.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StudentAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\StudentAnswer.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\StudentAnswer.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\StudentAnswer.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\StudentAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T08:53:42.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Question.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\Question.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Question.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\Question.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T08:39:03.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ExamStudent.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\ExamStudent.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\ExamStudent.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\ExamStudent.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\ExamStudent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T08:06:09.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20260729123236_CreateAllModel.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260729123236_CreateAllModel.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260729123236_CreateAllModel.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260729123236_CreateAllModel.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260729123236_CreateAllModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T12:32:36.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260729122952_CreateAllModel.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260729122952_CreateAllModel.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260729122952_CreateAllModel.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260729122952_CreateAllModel.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260729122952_CreateAllModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T12:29:52.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260729122350_CreateAllModel.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260729122350_CreateAllModel.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260729122350_CreateAllModel.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260729122350_CreateAllModel.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260729122350_CreateAllModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T12:23:50.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\AuditableEntity.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\AuditableEntity.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\AuditableEntity.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\AuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:56:26.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Course.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\Course.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Course.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T08:20:43.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Choice.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Choice.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Model\\Choice.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Model\\Choice.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Model\\Choice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T11:59:47.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "QuestionLevel .cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Enums\\QuestionLevel .cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Enums\\QuestionLevel .cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Enums\\QuestionLevel .cs",
+              "RelativeToolTip": "EXSYS.DAL\\Enums\\QuestionLevel .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T08:40:59.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ExamType.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Enums\\ExamType.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Enums\\ExamType.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Enums\\ExamType.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Enums\\ExamType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T07:54:56.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20260728150516_InstructorsModel.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260728150516_InstructorsModel.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260728150516_InstructorsModel.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260728150516_InstructorsModel.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260728150516_InstructorsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T15:05:16.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20260728150039_StudentModel.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260728150039_StudentModel.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260728150039_StudentModel.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260728150039_StudentModel.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260728150039_StudentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T15:00:39.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20260727171512_RenameIdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260727171512_RenameIdentityTables.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260727171512_RenameIdentityTables.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260727171512_RenameIdentityTables.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260727171512_RenameIdentityTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T17:15:13.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20260726091810_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260726091810_Initial.cs",
+              "RelativeDocumentMoniker": "EXSYS.DAL\\Migrations\\20260726091810_Initial.cs",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.DAL\\Migrations\\20260726091810_Initial.cs",
+              "RelativeToolTip": "EXSYS.DAL\\Migrations\\20260726091810_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T09:18:10.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EXSYS.PL.csproj",
+              "DocumentMoniker": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\EXSYS.PL.csproj",
+              "RelativeDocumentMoniker": "EXSYS.PL\\EXSYS.PL.csproj",
+              "ToolTip": "C:\\Users\\mass\\source\\repos\\EXSYS.PL\\EXSYS.PL\\EXSYS.PL.csproj",
+              "RelativeToolTip": "EXSYS.PL\\EXSYS.PL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-25T17:17:23.616Z",
+              "EditorCaption": ""
             }
           ]
         }
