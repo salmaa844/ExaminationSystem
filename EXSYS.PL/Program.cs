@@ -18,7 +18,16 @@ namespace EXSYS.PL
 
             builder.Services.AddControllers();
             builder.Services.AddOpenApi();
+            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  policy =>
+                                  {
+                                      policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                                  });
+            });
             builder.Services.AddDbContext<ApplicationDbContext>(option =>
             {
                 option.UseSqlServer(
@@ -51,6 +60,7 @@ namespace EXSYS.PL
                     await seeder.DataSeed();
                 }
             }
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseHttpsRedirection();
             

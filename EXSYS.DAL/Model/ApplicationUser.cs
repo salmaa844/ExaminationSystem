@@ -10,6 +10,8 @@ namespace EXSYS.DAL.Model
     public class ApplicationUser:IdentityUser
     {
         public  string FullName { get; set; } 
+        public string? CodeResetPassword { get; set; }
+        public DateTime? CodeResetPasswordExpire { get; set; }
 
     }
 }

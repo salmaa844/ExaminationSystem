@@ -30,6 +30,12 @@ namespace EXSYS.DAL.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
+                    b.Property<string>("CodeResetPassword")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CodeResetPasswordExpire")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
@@ -79,6 +85,10 @@ namespace EXSYS.DAL.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique()
+                        .HasFilter("[Email] IS NOT NULL");
 
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
@@ -133,7 +143,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("UpdatedById");
 
-                    b.ToTable("Choices", (string)null);
+                    b.ToTable("Choices");
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Course", b =>
@@ -177,7 +187,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("UpdatedById");
 
-                    b.ToTable("Courses", (string)null);
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Exam", b =>
@@ -233,7 +243,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("UpdatedById");
 
-                    b.ToTable("Exams", (string)null);
+                    b.ToTable("Exams");
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.ExamQuestion", b =>
@@ -259,7 +269,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("QuestionId");
 
-                    b.ToTable("ExamQuestions", (string)null);
+                    b.ToTable("ExamQuestions");
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.ExamStudent", b =>
@@ -285,7 +295,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("StudentID");
 
-                    b.ToTable("ExamStudents", (string)null);
+                    b.ToTable("ExamStudents");
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Instructor", b =>
@@ -302,7 +312,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Instructors", (string)null);
+                    b.ToTable("Instructors");
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Question", b =>
@@ -352,7 +362,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("UpdatedById");
 
-                    b.ToTable("Questions", (string)null);
+                    b.ToTable("Questions");
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Student", b =>
@@ -369,7 +379,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Students", (string)null);
+                    b.ToTable("Students");
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.StudentAnswer", b =>
@@ -405,7 +415,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("StudentAnswers", (string)null);
+                    b.ToTable("StudentAnswers");
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.StudentCourse", b =>
@@ -431,7 +441,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("StudentCourses", (string)null);
+                    b.ToTable("StudentCourses");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

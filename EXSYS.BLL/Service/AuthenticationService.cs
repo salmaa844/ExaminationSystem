@@ -47,7 +47,7 @@ namespace EXSYS.BLL.Service
                     Error = result.Errors.Select(e => e.Description).ToList()
                 };
             }
-            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);//ما فيها داتا فقط لتأكد هل اليوزر وصل ل الصفحة بشكلل صحيح 
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             token = Uri.EscapeDataString(token);
 
 
@@ -125,14 +125,89 @@ namespace EXSYS.BLL.Service
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-        public Task<ForgotPasswordResponse> RequestPasswordResetAsync(ForgotPasswordRequest request)
+        public async Task<ForgotPasswordResponse> RequestPasswordResetAsync(ForgotPasswordRequest request)
         {
-            throw new NotImplementedException();
+            var user = await _userManager.FindByEmailAsync(request.Email);
+            if (user is null)
+            {
+                return new ForgotPasswordResponse()
+                {
+                    Success = false,
+                    Message = "email not found"
+                };
+            }
+            var random = new Random();
+            var code = random.Next(1000, 9999).ToString();
+            user.CodeResetPassword = code;
+            user.CodeResetPasswordExpire = DateTime.Now.AddMinutes(15);
+            await _userManager.UpdateAsync(user);
+            await _emailSender.SendEmailAsync(
+                user.Email,
+                "password reset",
+                $"<h2>your password reset code is {code}</h2>"
+            );
+            return new ForgotPasswordResponse()
+            {
+                Success = true,
+                Message = "password reset email sent"
+            };
         }
 
-        public Task<ResetPassswordResponse> ResetPassswordAsync(ResetPassswordRequest request)
+        public async Task<ResetPassswordResponse> ResetPassswordAsync(ResetPassswordRequest request)
         {
-            throw new NotImplementedException();
+            var user = await _userManager.FindByEmailAsync(request.Email);
+            if (user is null)
+            {
+                return new ResetPassswordResponse()
+                {
+                    Success = false,
+                    Message = "email not found"
+                };
+            }
+            if (user.CodeResetPassword != request.Code)
+            {
+                               return new ResetPassswordResponse()
+                {
+                    Success = false,
+                    Message = "invalid code"
+                };
+            }
+            if(user.CodeResetPasswordExpire < DateTime.Now)
+            {
+                return new ResetPassswordResponse()
+                {
+                    Success = false,
+                    Message = "code expired"
+                };
+            }
+            var isSamePassword = await _userManager.CheckPasswordAsync(user, request.NewPassword);
+            if(isSamePassword)
+            {
+                return new ResetPassswordResponse()
+                {
+                    Success = false,
+                    Message = "new password cannot be the same as the old password"
+                };
+            }
+            var result = await _userManager.ResetPasswordAsync(user, await _userManager.GeneratePasswordResetTokenAsync(user), request.NewPassword);
+            if (!result.Succeeded)
+            {
+                return new ResetPassswordResponse()
+                {
+                    Success = false,
+                    Message = "failed to reset password"
+                };
+            }
+            await _emailSender.SendEmailAsync(
+                user.Email,
+                "password reset",
+                $"<h2>your password has been reset successfully</h2>"
+            );
+            return new ResetPassswordResponse()
+            {
+                Success = true,
+                Message = "password reset successfully"
+            };
         }
     }
 }

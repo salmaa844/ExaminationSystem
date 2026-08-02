@@ -16,7 +16,7 @@ namespace EXSYS.BLL.Service
             {
                 EnableSsl = true,
                 UseDefaultCredentials = false,
-                Credentials = new NetworkCredential("1201621@student.birzeit.edu", "wtah npek dcpn wdmq")
+                Credentials = new NetworkCredential("1201621@student.birzeit.edu", "icrl tzch ovmd kypg")
             };
 
             return client.SendMailAsync(
