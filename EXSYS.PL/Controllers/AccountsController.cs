@@ -63,5 +63,15 @@ namespace EXSYS.PL.Controllers
             }
             return Ok(response);
         }
+        [HttpPut("change-role")]
+        public async Task<IActionResult> ChangeRole(ChangeRoleRequest request)
+        {
+            var result = await _authenticationService.ChangeRoleAsync(request);
+
+            if (!result.Success)
+                return BadRequest(result);
+
+            return Ok(result);
+        }
     }
 }

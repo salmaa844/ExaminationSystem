@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "EXSYS.PL.Controllers.AccountsController",
+    "Method": "ChangeRole",
+    "RelativePath": "api/Accounts/change-role",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EXSYS.DAL.DTO.Request.ChangeRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EXSYS.PL.Controllers.AccountsController",
     "Method": "ConfirmEmail",
     "RelativePath": "api/Accounts/ConfirmEmail",
     "HttpMethod": "GET",

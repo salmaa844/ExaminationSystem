@@ -23,16 +23,19 @@ namespace EXSYS.BLL.Service
         private readonly IEmailSender _emailSender;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IConfiguration _configuration;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
         public AuthenticationService(UserManager<ApplicationUser> userManager,IEmailSender emailSender,
             IHttpContextAccessor httpContextAccessor,
-            IConfiguration configuration
+            IConfiguration configuration,
+            RoleManager<IdentityRole> roleManager
             )
         {
             this._userManager = userManager;
             this._emailSender = emailSender;
             this._httpContextAccessor = httpContextAccessor;
             this._configuration = configuration;
+            this._roleManager = roleManager;
         }
         public async Task<RegisterResponse> RegisterAsync(RegisterRequest request)
         {
@@ -207,6 +210,71 @@ namespace EXSYS.BLL.Service
             {
                 Success = true,
                 Message = "password reset successfully"
+            };
+        }
+
+        public async Task<ChangeRoleResponse> ChangeRoleAsync(ChangeRoleRequest request)
+        {
+            var user = await _userManager.FindByIdAsync(request.UserId);
+
+            if (user is null)
+            {
+                return new ChangeRoleResponse
+                {
+                    Success = false,
+                    Message = "user not found"
+                };
+            }
+
+
+            var roleExists = await _roleManager.RoleExistsAsync(request.NewRoleName);
+
+            if (!roleExists)
+            {
+                return new ChangeRoleResponse
+                {
+                    Success = false,
+                    Message = "new role does not exist"
+                };
+            }
+
+            var currentRoles = await _userManager.GetRolesAsync(user);
+
+            if (currentRoles.Contains(request.NewRoleName))
+            {
+                return new ChangeRoleResponse
+                {
+                    Success = true,
+                    Message = "User already has this role"
+                };
+            }
+
+
+            
+
+            var addResult = await _userManager.AddToRoleAsync(
+                user,
+                request.NewRoleName
+            );
+
+
+            if (!addResult.Succeeded)
+            {
+                return new ChangeRoleResponse
+                {
+                    Success = false,
+                    Message = "failed to add new role",
+                    Error = addResult.Errors
+                        .Select(e => e.Description)
+                        .ToList()
+                };
+            }
+
+
+            return new ChangeRoleResponse
+            {
+                Success = true,
+                Message = "role changed successfully"
             };
         }
     }

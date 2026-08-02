@@ -15,7 +15,7 @@ namespace EXSYS.BLL.Service
         Task<bool> ConfirmEmailAsync(string token, string id);
         Task<ForgotPasswordResponse> RequestPasswordResetAsync(ForgotPasswordRequest request);
         Task<ResetPassswordResponse> ResetPassswordAsync(ResetPassswordRequest request);
-
+        Task<ChangeRoleResponse> ChangeRoleAsync(ChangeRoleRequest request);
 
     }
 }
