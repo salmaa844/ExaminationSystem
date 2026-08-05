@@ -31,8 +31,8 @@ namespace EXSYS.DAL.Data
 
 
 
-       
-           protected override void OnModelCreating(ModelBuilder builder)
+
+        protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
@@ -42,25 +42,43 @@ namespace EXSYS.DAL.Data
 
 
             foreach (var entityType in builder.Model.GetEntityTypes()
-            .Where(t => typeof(AuditableEntity).IsAssignableFrom(t.ClrType)))
+             .Where(t => typeof(AuditableEntity).IsAssignableFrom(t.ClrType)))
             {
                 builder.Entity(entityType.ClrType)
                     .HasOne(typeof(ApplicationUser), "CreatedBy")
                     .WithMany()
                     .HasForeignKey("CreatedById")
-                    .OnDelete(DeleteBehavior.Restrict);
+                    .OnDelete(DeleteBehavior.NoAction);
+
 
                 builder.Entity(entityType.ClrType)
                     .HasOne(typeof(ApplicationUser), "UpdatedBy")
                     .WithMany()
                     .HasForeignKey("UpdatedById")
-                    .OnDelete(DeleteBehavior.Restrict);
+                    .OnDelete(DeleteBehavior.NoAction);
             }
+
+
+            // User - Student
+            builder.Entity<Student>()
+                .HasOne(s => s.User)
+                .WithOne(u => u.Student)
+                .HasForeignKey<Student>(s => s.UserId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+
+            // User - Instructor
+            builder.Entity<Instructor>()
+                .HasOne(i => i.User)
+                .WithOne(u => u.Instructor)
+                .HasForeignKey<Instructor>(i => i.UserId)
+               .OnDelete(DeleteBehavior.NoAction);
+
 
             builder.Entity<Exam>()
                 .HasOne(e => e.Instructor)
                 .WithMany(i => i.Exams)
-                .HasForeignKey(e => e.InstructorID)
+                .HasForeignKey(e => e.InstructorId)
                 .OnDelete(DeleteBehavior.Restrict);
 
 
@@ -69,13 +87,9 @@ namespace EXSYS.DAL.Data
                 .WithMany(c => c.Exams)
                 .HasForeignKey(e => e.CourseId)
                 .OnDelete(DeleteBehavior.Restrict);
-            builder.Entity<ApplicationUser>()
-            .HasIndex(u => u.Email)
-            .IsUnique();
 
 
         }
-
 
     }
     

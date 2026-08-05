@@ -8,7 +8,7 @@ namespace EXSYS.DAL.Model
 {
     public class AuditableEntity 
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string CreatedById { get; set; }
         public string? UpdatedById { get; set; }
         public DateTime CreatedOn { get; set; }

@@ -86,10 +86,6 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Email")
-                        .IsUnique()
-                        .HasFilter("[Email] IS NOT NULL");
-
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
 
@@ -103,11 +99,11 @@ namespace EXSYS.DAL.Migrations
 
             modelBuilder.Entity("EXSYS.DAL.Model.Choice", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("CreatedById")
                         .IsRequired()
@@ -135,7 +131,7 @@ namespace EXSYS.DAL.Migrations
                     b.Property<DateTime?>("UpdatedOn")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.HasIndex("CreatedById");
 
@@ -143,16 +139,16 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("UpdatedById");
 
-                    b.ToTable("Choices");
+                    b.ToTable("Choices", (string)null);
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Course", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("CreatedById")
                         .IsRequired()
@@ -181,22 +177,22 @@ namespace EXSYS.DAL.Migrations
                     b.Property<DateTime?>("UpdatedOn")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.HasIndex("CreatedById");
 
                     b.HasIndex("UpdatedById");
 
-                    b.ToTable("Courses");
+                    b.ToTable("Courses", (string)null);
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Exam", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
@@ -214,7 +210,7 @@ namespace EXSYS.DAL.Migrations
                     b.Property<int>("DurationInMinutes")
                         .HasColumnType("int");
 
-                    b.Property<int>("InstructorID")
+                    b.Property<int>("InstructorId")
                         .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
@@ -233,17 +229,17 @@ namespace EXSYS.DAL.Migrations
                     b.Property<DateTime?>("UpdatedOn")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.HasIndex("CourseId");
 
                     b.HasIndex("CreatedById");
 
-                    b.HasIndex("InstructorID");
+                    b.HasIndex("InstructorId");
 
                     b.HasIndex("UpdatedById");
 
-                    b.ToTable("Exams");
+                    b.ToTable("Exams", (string)null);
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.ExamQuestion", b =>
@@ -269,7 +265,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("QuestionId");
 
-                    b.ToTable("ExamQuestions");
+                    b.ToTable("ExamQuestions", (string)null);
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.ExamStudent", b =>
@@ -295,7 +291,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("StudentID");
 
-                    b.ToTable("ExamStudents");
+                    b.ToTable("ExamStudents", (string)null);
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Instructor", b =>
@@ -306,22 +302,45 @@ namespace EXSYS.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Name")
+                    b.Property<string>("CreatedById")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UpdatedById")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime?>("UpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Instructors");
+                    b.HasIndex("CreatedById");
+
+                    b.HasIndex("UpdatedById");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Instructors", (string)null);
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Question", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
@@ -352,7 +371,7 @@ namespace EXSYS.DAL.Migrations
                     b.Property<DateTime?>("UpdatedOn")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.HasIndex("CourseId");
 
@@ -362,7 +381,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("UpdatedById");
 
-                    b.ToTable("Questions");
+                    b.ToTable("Questions", (string)null);
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Student", b =>
@@ -373,13 +392,36 @@ namespace EXSYS.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Name")
+                    b.Property<string>("CreatedById")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UpdatedById")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime?>("UpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Students");
+                    b.HasIndex("CreatedById");
+
+                    b.HasIndex("UpdatedById");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Students", (string)null);
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.StudentAnswer", b =>
@@ -390,7 +432,7 @@ namespace EXSYS.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("ChoiceID")
+                    b.Property<int?>("ChoiceId")
                         .HasColumnType("int");
 
                     b.Property<int>("ExamID")
@@ -407,7 +449,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ChoiceID");
+                    b.HasIndex("ChoiceId");
 
                     b.HasIndex("ExamID");
 
@@ -415,7 +457,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("StudentAnswers");
+                    b.ToTable("StudentAnswers", (string)null);
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.StudentCourse", b =>
@@ -441,7 +483,7 @@ namespace EXSYS.DAL.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("StudentCourses");
+                    b.ToTable("StudentCourses", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -582,7 +624,7 @@ namespace EXSYS.DAL.Migrations
                     b.HasOne("EXSYS.DAL.Model.ApplicationUser", "CreatedBy")
                         .WithMany()
                         .HasForeignKey("CreatedById")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("EXSYS.DAL.Model.Question", "Question")
@@ -594,7 +636,7 @@ namespace EXSYS.DAL.Migrations
                     b.HasOne("EXSYS.DAL.Model.ApplicationUser", "UpdatedBy")
                         .WithMany()
                         .HasForeignKey("UpdatedById")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("CreatedBy");
 
@@ -608,13 +650,13 @@ namespace EXSYS.DAL.Migrations
                     b.HasOne("EXSYS.DAL.Model.ApplicationUser", "CreatedBy")
                         .WithMany()
                         .HasForeignKey("CreatedById")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("EXSYS.DAL.Model.ApplicationUser", "UpdatedBy")
                         .WithMany()
                         .HasForeignKey("UpdatedById")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("CreatedBy");
 
@@ -632,19 +674,19 @@ namespace EXSYS.DAL.Migrations
                     b.HasOne("EXSYS.DAL.Model.ApplicationUser", "CreatedBy")
                         .WithMany()
                         .HasForeignKey("CreatedById")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("EXSYS.DAL.Model.Instructor", "Instructor")
                         .WithMany("Exams")
-                        .HasForeignKey("InstructorID")
+                        .HasForeignKey("InstructorId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("EXSYS.DAL.Model.ApplicationUser", "UpdatedBy")
                         .WithMany()
                         .HasForeignKey("UpdatedById")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("Course");
 
@@ -693,6 +735,32 @@ namespace EXSYS.DAL.Migrations
                     b.Navigation("Student");
                 });
 
+            modelBuilder.Entity("EXSYS.DAL.Model.Instructor", b =>
+                {
+                    b.HasOne("EXSYS.DAL.Model.ApplicationUser", "CreatedBy")
+                        .WithMany()
+                        .HasForeignKey("CreatedById")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("EXSYS.DAL.Model.ApplicationUser", "UpdatedBy")
+                        .WithMany()
+                        .HasForeignKey("UpdatedById")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("EXSYS.DAL.Model.ApplicationUser", "User")
+                        .WithOne("Instructor")
+                        .HasForeignKey("EXSYS.DAL.Model.Instructor", "UserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("CreatedBy");
+
+                    b.Navigation("UpdatedBy");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("EXSYS.DAL.Model.Question", b =>
                 {
                     b.HasOne("EXSYS.DAL.Model.Course", "Course")
@@ -704,11 +772,11 @@ namespace EXSYS.DAL.Migrations
                     b.HasOne("EXSYS.DAL.Model.ApplicationUser", "CreatedBy")
                         .WithMany()
                         .HasForeignKey("CreatedById")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("EXSYS.DAL.Model.Instructor", "Instructor")
-                        .WithMany("Questions")
+                        .WithMany()
                         .HasForeignKey("InstructorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -716,7 +784,7 @@ namespace EXSYS.DAL.Migrations
                     b.HasOne("EXSYS.DAL.Model.ApplicationUser", "UpdatedBy")
                         .WithMany()
                         .HasForeignKey("UpdatedById")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("Course");
 
@@ -727,11 +795,37 @@ namespace EXSYS.DAL.Migrations
                     b.Navigation("UpdatedBy");
                 });
 
+            modelBuilder.Entity("EXSYS.DAL.Model.Student", b =>
+                {
+                    b.HasOne("EXSYS.DAL.Model.ApplicationUser", "CreatedBy")
+                        .WithMany()
+                        .HasForeignKey("CreatedById")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("EXSYS.DAL.Model.ApplicationUser", "UpdatedBy")
+                        .WithMany()
+                        .HasForeignKey("UpdatedById")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("EXSYS.DAL.Model.ApplicationUser", "User")
+                        .WithOne("Student")
+                        .HasForeignKey("EXSYS.DAL.Model.Student", "UserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("CreatedBy");
+
+                    b.Navigation("UpdatedBy");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("EXSYS.DAL.Model.StudentAnswer", b =>
                 {
                     b.HasOne("EXSYS.DAL.Model.Choice", null)
                         .WithMany("StudentAnswers")
-                        .HasForeignKey("ChoiceID");
+                        .HasForeignKey("ChoiceId");
 
                     b.HasOne("EXSYS.DAL.Model.Exam", "Exam")
                         .WithMany("StudentAnswers")
@@ -746,7 +840,7 @@ namespace EXSYS.DAL.Migrations
                         .IsRequired();
 
                     b.HasOne("EXSYS.DAL.Model.Student", "Student")
-                        .WithMany()
+                        .WithMany("StudentAnswers")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -767,7 +861,7 @@ namespace EXSYS.DAL.Migrations
                         .IsRequired();
 
                     b.HasOne("EXSYS.DAL.Model.Student", "Student")
-                        .WithMany()
+                        .WithMany("StudentCourses")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -828,6 +922,13 @@ namespace EXSYS.DAL.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("EXSYS.DAL.Model.ApplicationUser", b =>
+                {
+                    b.Navigation("Instructor");
+
+                    b.Navigation("Student");
+                });
+
             modelBuilder.Entity("EXSYS.DAL.Model.Choice", b =>
                 {
                     b.Navigation("StudentAnswers");
@@ -850,8 +951,6 @@ namespace EXSYS.DAL.Migrations
             modelBuilder.Entity("EXSYS.DAL.Model.Instructor", b =>
                 {
                     b.Navigation("Exams");
-
-                    b.Navigation("Questions");
                 });
 
             modelBuilder.Entity("EXSYS.DAL.Model.Question", b =>
@@ -864,6 +963,10 @@ namespace EXSYS.DAL.Migrations
             modelBuilder.Entity("EXSYS.DAL.Model.Student", b =>
                 {
                     b.Navigation("ExamStudents");
+
+                    b.Navigation("StudentAnswers");
+
+                    b.Navigation("StudentCourses");
                 });
 #pragma warning restore 612, 618
         }

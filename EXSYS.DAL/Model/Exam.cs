@@ -17,7 +17,7 @@ namespace EXSYS.DAL.Model
 
         public int DurationInMinutes { get; set; }
         [ForeignKey("Instructor")]
-        public int InstructorID { get; set; }
+        public int InstructorId { get; set; }
         [ForeignKey("Course")]
         public int CourseId { get; set; }
 

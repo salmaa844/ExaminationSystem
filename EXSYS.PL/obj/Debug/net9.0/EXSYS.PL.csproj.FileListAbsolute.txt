@@ -1,3 +1,11 @@
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.csproj.AssemblyReference.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.AssemblyInfoInputs.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.AssemblyInfo.cs
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.csproj.CoreCompileInputs.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.sourcelink.json
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\appsettings.json
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\EXSYS.PL.staticwebassets.endpoints.json
@@ -9,6 +17,9 @@ C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\EXSYS.PL.pdb
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Azure.Identity.dll
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Humanizer.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Mapster.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Mapster.Core.dll
+C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -134,14 +145,6 @@ C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\EXSYS.BLL.dll
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\EXSYS.DAL.dll
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\EXSYS.BLL.pdb
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\EXSYS.DAL.pdb
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.csproj.AssemblyReference.cache
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.AssemblyInfoInputs.cache
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.AssemblyInfo.cs
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.csproj.CoreCompileInputs.cache
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -157,7 +160,3 @@ C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\refint\EXSYS.PL.dl
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.pdb
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.genruntimeconfig.cache
 C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\ref\EXSYS.PL.dll
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\obj\Debug\net9.0\EXSYS.PL.sourcelink.json
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Mapster.dll
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Mapster.Core.dll
-C:\Users\mass\source\repos\EXSYS.PL\EXSYS.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

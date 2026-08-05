@@ -7,11 +7,18 @@ using System.Threading.Tasks;
 
 namespace EXSYS.DAL.Model
 {
-    public class ApplicationUser:IdentityUser
+    public class ApplicationUser : IdentityUser
     {
-        public  string FullName { get; set; } 
+        public string FullName { get; set; }
+
         public string? CodeResetPassword { get; set; }
+
         public DateTime? CodeResetPasswordExpire { get; set; }
 
+
+        // Navigation Properties
+        public Student?Student { get; set; }
+
+        public Instructor? Instructor { get; set; }
     }
 }

@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace EXSYS.DAL.Model
 {
-    public class Student
+    public class Student : AuditableEntity
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public ICollection<ExamStudent> ExamStudents { get; set; }
+        public string UserId { get; set; }
 
+        public ApplicationUser User { get; set; }
+
+        public ICollection<StudentCourse> StudentCourses { get; set; }
+        public ICollection<ExamStudent> ExamStudents { get; set; }
+        public ICollection<StudentAnswer> StudentAnswers { get; set; }
     }
 }

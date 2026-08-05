@@ -1,7 +1,9 @@
 ﻿using EXSYS.BLL.Service;
 using EXSYS.DAL.DTO.Request;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace EXSYS.PL.Controllers
 {
@@ -64,9 +66,16 @@ namespace EXSYS.PL.Controllers
             return Ok(response);
         }
         [HttpPut("change-role")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> ChangeRole(ChangeRoleRequest request)
         {
-            var result = await _authenticationService.ChangeRoleAsync(request);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (userId == null)
+            {
+                return Unauthorized();
+            }
+            var result = await _authenticationService.ChangeRoleAsync(request,userId);
 
             if (!result.Success)
                 return BadRequest(result);

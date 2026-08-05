@@ -1,6 +1,7 @@
 ﻿using EXSYS.DAL.DTO.Request;
 using EXSYS.DAL.DTO.Responce;
 using EXSYS.DAL.Model;
+using EXSYS.DAL.Repositry;
 using Mapster;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -24,11 +25,15 @@ namespace EXSYS.BLL.Service
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IConfiguration _configuration;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IStudentRepositry _studentRepository;
+        private readonly IInstructorRepositry _instructorRepository;
 
         public AuthenticationService(UserManager<ApplicationUser> userManager,IEmailSender emailSender,
             IHttpContextAccessor httpContextAccessor,
             IConfiguration configuration,
-            RoleManager<IdentityRole> roleManager
+            RoleManager<IdentityRole> roleManager,
+            IStudentRepositry studentRepository,
+            IInstructorRepositry instructorRepository
             )
         {
             this._userManager = userManager;
@@ -36,6 +41,8 @@ namespace EXSYS.BLL.Service
             this._httpContextAccessor = httpContextAccessor;
             this._configuration = configuration;
             this._roleManager = roleManager;
+            this._studentRepository = studentRepository;
+            this._instructorRepository = instructorRepository;
         }
         public async Task<RegisterResponse> RegisterAsync(RegisterRequest request)
         {
@@ -116,6 +123,12 @@ namespace EXSYS.BLL.Service
                 new Claim(ClaimTypes.Email,user.Email)
 
             };
+            var roles = await _userManager.GetRolesAsync(user);
+
+            foreach (var role in roles)
+            {
+                userClaims.Add(new Claim(ClaimTypes.Role, role));
+            }
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]!));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             var token = new JwtSecurityToken(
@@ -213,61 +226,55 @@ namespace EXSYS.BLL.Service
             };
         }
 
-        public async Task<ChangeRoleResponse> ChangeRoleAsync(ChangeRoleRequest request)
+        public async Task<ChangeRoleResponse> ChangeRoleAsync(ChangeRoleRequest request, string userId)
         {
             var user = await _userManager.FindByIdAsync(request.UserId);
 
-            if (user is null)
-            {
-                return new ChangeRoleResponse
-                {
-                    Success = false,
-                    Message = "user not found"
-                };
-            }
+            if (user == null)
+                return new ChangeRoleResponse { Success = false, Message = "user not found" };
 
 
             var roleExists = await _roleManager.RoleExistsAsync(request.NewRoleName);
 
             if (!roleExists)
+                return new ChangeRoleResponse { Success = false, Message = "role does not exist" };
+
+
+            var oldRoles = await _userManager.GetRolesAsync(user);
+
+            await _userManager.RemoveFromRolesAsync(user, oldRoles);
+            await _userManager.AddToRoleAsync(user, request.NewRoleName);
+
+
+            // حذف أي بيانات قديمة
+            var student = await _studentRepository.GetOne(x => x.UserId == user.Id);
+            if (student != null)
+                await _studentRepository.DeleteAsync(student);
+
+
+            var instructor = await _instructorRepository.GetOne(x => x.UserId == user.Id);
+            if (instructor != null)
+                await _instructorRepository.DeleteAsync(instructor);
+
+
+            // إنشاء حسب الدور الجديد
+            if (request.NewRoleName == "Student")
             {
-                return new ChangeRoleResponse
+                await _studentRepository.CreateAsync(new Student
                 {
-                    Success = false,
-                    Message = "new role does not exist"
-                };
+                    UserId = user.Id,
+                    CreatedById = userId,
+                    CreatedOn = DateTime.UtcNow
+                });
             }
-
-            var currentRoles = await _userManager.GetRolesAsync(user);
-
-            if (currentRoles.Contains(request.NewRoleName))
+            else if (request.NewRoleName == "Instructor")
             {
-                return new ChangeRoleResponse
+                await _instructorRepository.CreateAsync(new Instructor
                 {
-                    Success = true,
-                    Message = "User already has this role"
-                };
-            }
-
-
-            
-
-            var addResult = await _userManager.AddToRoleAsync(
-                user,
-                request.NewRoleName
-            );
-
-
-            if (!addResult.Succeeded)
-            {
-                return new ChangeRoleResponse
-                {
-                    Success = false,
-                    Message = "failed to add new role",
-                    Error = addResult.Errors
-                        .Select(e => e.Description)
-                        .ToList()
-                };
+                    UserId = user.Id,
+                    CreatedById = userId,
+                    CreatedOn = DateTime.UtcNow
+                });
             }
 
 

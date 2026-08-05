@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace EXSYS.DAL.Model
 {
-    public class Instructor 
+   
+    public class Instructor : AuditableEntity
     {
-        public int Id { get; set; }
+        public string UserId { get; set; }
 
-        public string Name { get; set; }
-        public ICollection<Exam> Exams { get; set; }
-        public ICollection<Question> Questions { get; set; }
+        public ApplicationUser User { get; set; }
 
+        public ICollection<Exam> Exams { get; set; } 
     }
 }

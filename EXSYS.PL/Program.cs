@@ -1,3 +1,4 @@
+using EXSYS.BLL.Mapping;
 using EXSYS.BLL.Service;
 using EXSYS.DAL.Data;
 using EXSYS.DAL.Model;
@@ -18,24 +19,30 @@ namespace EXSYS.PL
 
             builder.Services.AddControllers();
             builder.Services.AddOpenApi();
-            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy(name: MyAllowSpecificOrigins,
-                                  policy =>
-                                  {
-                                      policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
-                                  });
+                options.AddPolicy("_myAllowSpecificOrigins",
+                    policy =>
+                    {
+                        policy.AllowAnyOrigin()
+                              .AllowAnyMethod()
+                              .AllowAnyHeader();
+                    });
             });
+
+
             builder.Services.AddDbContext<ApplicationDbContext>(option =>
             {
                 option.UseSqlServer(
                     builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
-           
+
             builder.Services.AddApplicationServices(builder.Configuration);
+
+            MapsterConfig.MapesterConfigRegister();
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>(option =>
             {
                 option.User.RequireUniqueEmail = true;
@@ -43,31 +50,45 @@ namespace EXSYS.PL
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
 
-            builder.Services.AddApplicationServices(builder.Configuration);
+
+            builder.Services.AddJwtAuthentication(builder.Configuration);
+
 
             var app = builder.Build();
+
 
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();
             }
+
+
             using (var scope = app.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
+
                 var seeders = services.GetServices<ISeedData>();
+
                 foreach (var seeder in seeders)
                 {
                     await seeder.DataSeed();
                 }
             }
-            app.UseCors(MyAllowSpecificOrigins);
+
+
+            app.UseCors("_myAllowSpecificOrigins");
+
 
             app.UseHttpsRedirection();
-            
-            app.UseAuthentication(); 
+
+
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
+
             app.MapControllers();
+
 
             app.Run();
         }
