@@ -1,10 +1,13 @@
 ﻿using EXSYS.DAL.Model;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,9 +15,12 @@ namespace EXSYS.DAL.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-        {
+        private readonly  IHttpContextAccessor httpContextAccessor;
 
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options,
+            IHttpContextAccessor httpContextAccessor) : base(options)
+        {
+            this.httpContextAccessor = httpContextAccessor;
         }
 
         public DbSet<Student> Students { get; set; }
@@ -75,22 +81,45 @@ namespace EXSYS.DAL.Data
                .OnDelete(DeleteBehavior.NoAction);
 
 
-            builder.Entity<Exam>()
-                .HasOne(e => e.Instructor)
-                .WithMany(i => i.Exams)
-                .HasForeignKey(e => e.InstructorId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-
+          
             builder.Entity<Exam>()
                 .HasOne(e => e.Course)
                 .WithMany(c => c.Exams)
                 .HasForeignKey(e => e.CourseId)
                 .OnDelete(DeleteBehavior.Restrict);
+            builder.Entity<Course>()
+                .HasOne(c => c.Instructor)
+                .WithMany(i => i.Courses)
+                .HasForeignKey(c => c.InstructorId)
+                .OnDelete(DeleteBehavior.NoAction);
 
 
         }
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+
+            if (httpContextAccessor.HttpContext != null)
+            {
+                var entries = ChangeTracker.Entries<AuditableEntity>();
+                var currentUserId = httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
+                foreach (var entry in entries)
+                {
+                    if (entry.State == EntityState.Added)
+                    {
+                        entry.Property(e => e.CreatedById).CurrentValue = currentUserId;
+                        entry.Property(e => e.CreatedOn).CurrentValue = DateTime.UtcNow;
+                    }
+                    if (entry.State == EntityState.Modified)
+                    {
+                        entry.Property(e => e.UpdatedById).CurrentValue = currentUserId;
+                        entry.Property(e => e.UpdatedOn).CurrentValue = DateTime.UtcNow;
+                    }
+                }
+            }
+
+            return base.SaveChangesAsync(cancellationToken);
+        }
 
     }
-    
+
 }

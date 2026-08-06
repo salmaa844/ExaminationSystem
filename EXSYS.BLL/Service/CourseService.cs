@@ -12,17 +12,18 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace EXSYS.BLL.Service
 {
     public class CourseService : ICourseService
     {
         private readonly ICourseRepositry _courseRepositry;
+        private readonly IInstructorRepositry _instructorRepositry;
 
-        public CourseService(ICourseRepositry courseRepositry)
+        public CourseService(ICourseRepositry courseRepositry,IInstructorRepositry instructorRepositry)
         {
             this._courseRepositry = courseRepositry;
+            this._instructorRepositry = instructorRepositry;
         }
         public async Task<bool> CreateCourseAsync(CourseRequeste requeste, string userId)
         {
@@ -33,19 +34,28 @@ namespace EXSYS.BLL.Service
                 throw new InvalidOperationException("Course already exists");
             }
 
+
+            var instructor = await _instructorRepositry.GetOne(
+                i => i.UserId == userId
+            );
+
+            if (instructor == null)
+            {
+                throw new InvalidOperationException("Instructor profile not found");
+            }
+
+
             var course = requeste.Adapt<Course>();
+
+            course.InstructorId = instructor.Id;
 
             course.CreatedById = userId;
             course.CreatedOn = DateTime.UtcNow;
 
+
             var result = await _courseRepositry.CreateAsync(course);
 
-            if (result == null)
-            {
-                return false;
-            }
-
-            return true;
+            return result != null;
         }
         public async Task<bool> DeleteCourse(int id)
         {
@@ -70,7 +80,7 @@ namespace EXSYS.BLL.Service
                 null,
                 new string[]
                 {
-            nameof(Course.CreatedBy)
+                  nameof(Course.CreatedBy)
                 });
 
 

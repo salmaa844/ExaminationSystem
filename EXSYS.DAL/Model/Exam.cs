@@ -8,31 +8,37 @@ using System.Threading.Tasks;
 
 namespace EXSYS.DAL.Model
 {
-    
-    public class Exam :AuditableEntity
+   
+    public class Exam : AuditableEntity
     {
         public string Name { get; set; }
+
         public ExamType Type { get; set; }
-        public DateTime Date { get; set; }
+
+        public DateTime StartDate { get; set; }
+
+        public DateTime EndDate { get; set; }
 
         public int DurationInMinutes { get; set; }
-        [ForeignKey("Instructor")]
-        public int InstructorId { get; set; }
-        [ForeignKey("Course")]
+
+        public decimal TotalMark { get; set; }
+
+        public ExamStatus Status { get; set; } = ExamStatus.Draft;
+
+        
+
         public int CourseId { get; set; }
 
 
-        //Navigation Properties
+        // Navigation Properties
 
         public Course Course { get; set; }
 
-        public Instructor Instructor { get; set; }
 
         public ICollection<ExamStudent> ExamStudents { get; set; }
+
         public ICollection<ExamQuestion> ExamQuestions { get; set; }
+
         public ICollection<StudentAnswer> StudentAnswers { get; set; }
-
-
-
     }
 }

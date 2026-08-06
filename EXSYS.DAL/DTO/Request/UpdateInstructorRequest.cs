@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EXSYS.DAL.Enums
+namespace EXSYS.DAL.DTO.Request
 {
-    public enum ExamType
+    public class UpdateInstructorRequest
     {
-        Quize=1,
-        Final=2
     }
 }

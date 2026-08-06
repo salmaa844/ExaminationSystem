@@ -239,14 +239,23 @@ namespace EXSYS.BLL.Service
             if (!roleExists)
                 return new ChangeRoleResponse { Success = false, Message = "role does not exist" };
 
+            var currentRoles = await _userManager.GetRolesAsync(user);
 
+
+            if (currentRoles.Any(r =>r.Equals(request.NewRoleName, StringComparison.OrdinalIgnoreCase)))
+            {
+                return new ChangeRoleResponse
+                {
+                    Success = false,
+                    Message = "User already has this role"
+                };
+            }
             var oldRoles = await _userManager.GetRolesAsync(user);
 
             await _userManager.RemoveFromRolesAsync(user, oldRoles);
             await _userManager.AddToRoleAsync(user, request.NewRoleName);
 
 
-            // حذف أي بيانات قديمة
             var student = await _studentRepository.GetOne(x => x.UserId == user.Id);
             if (student != null)
                 await _studentRepository.DeleteAsync(student);
@@ -257,7 +266,6 @@ namespace EXSYS.BLL.Service
                 await _instructorRepository.DeleteAsync(instructor);
 
 
-            // إنشاء حسب الدور الجديد
             if (request.NewRoleName == "Student")
             {
                 await _studentRepository.CreateAsync(new Student

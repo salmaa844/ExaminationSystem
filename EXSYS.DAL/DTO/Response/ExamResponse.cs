@@ -15,13 +15,15 @@ namespace EXSYS.DAL.DTO.Responce
 
         public ExamType Type { get; set; }
 
-        public DateTime Date { get; set; }
+        public DateTime StartDate { get; set; }
+
+        public DateTime EndDate { get; set; }
 
         public int DurationInMinutes { get; set; }
 
-        public int InstructorId { get; set; }
+        public decimal TotalMark { get; set; }
 
-        public string InstructorName { get; set; }
+        public ExamStatus Status { get; set; }
 
         public int CourseId { get; set; }
 

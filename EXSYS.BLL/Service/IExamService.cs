@@ -14,7 +14,7 @@ namespace EXSYS.BLL.Service
    
     public interface IExamService
     {
-        Task CreateExamAsync(AddExamRequest request);
+        Task CreateExamAsync(AddExamRequest request,string userId);
 
         Task<PaginationResponse<ExamResponse>> GetAllExamsAsync(ExamFilterRequest request);
 

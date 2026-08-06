@@ -4,6 +4,7 @@ using EXSYS.DAL.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EXSYS.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260805203746_updateExamModel")]
+    partial class updateExamModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -164,9 +167,6 @@ namespace EXSYS.DAL.Migrations
                     b.Property<int>("Hours")
                         .HasColumnType("int");
 
-                    b.Property<int>("InstructorId")
-                        .HasColumnType("int");
-
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
@@ -183,8 +183,6 @@ namespace EXSYS.DAL.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CreatedById");
-
-                    b.HasIndex("InstructorId");
 
                     b.HasIndex("UpdatedById");
 
@@ -215,7 +213,7 @@ namespace EXSYS.DAL.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("InstructorId")
+                    b.Property<int>("InstructorId")
                         .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
@@ -667,20 +665,12 @@ namespace EXSYS.DAL.Migrations
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("EXSYS.DAL.Model.Instructor", "Instructor")
-                        .WithMany("Courses")
-                        .HasForeignKey("InstructorId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
                     b.HasOne("EXSYS.DAL.Model.ApplicationUser", "UpdatedBy")
                         .WithMany()
                         .HasForeignKey("UpdatedById")
                         .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("CreatedBy");
-
-                    b.Navigation("Instructor");
 
                     b.Navigation("UpdatedBy");
                 });
@@ -699,9 +689,11 @@ namespace EXSYS.DAL.Migrations
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("EXSYS.DAL.Model.Instructor", null)
+                    b.HasOne("EXSYS.DAL.Model.Instructor", "Instructor")
                         .WithMany("Exams")
-                        .HasForeignKey("InstructorId");
+                        .HasForeignKey("InstructorId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.HasOne("EXSYS.DAL.Model.ApplicationUser", "UpdatedBy")
                         .WithMany()
@@ -711,6 +703,8 @@ namespace EXSYS.DAL.Migrations
                     b.Navigation("Course");
 
                     b.Navigation("CreatedBy");
+
+                    b.Navigation("Instructor");
 
                     b.Navigation("UpdatedBy");
                 });
@@ -968,8 +962,6 @@ namespace EXSYS.DAL.Migrations
 
             modelBuilder.Entity("EXSYS.DAL.Model.Instructor", b =>
                 {
-                    b.Navigation("Courses");
-
                     b.Navigation("Exams");
                 });
 

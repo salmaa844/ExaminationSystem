@@ -12,6 +12,7 @@ namespace EXSYS.DAL.Model
         public string UserId { get; set; }
 
         public ApplicationUser User { get; set; }
+        public ICollection<Course> Courses { get; set; }
 
         public ICollection<Exam> Exams { get; set; } 
     }

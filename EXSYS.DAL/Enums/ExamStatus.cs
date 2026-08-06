@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace EXSYS.DAL.Enums
 {
-    public enum ExamType
+    public enum ExamStatus
     {
-        Quize=1,
-        Final=2
+        Draft=1,
+        Published=2,
+        Closed=3
     }
 }
