@@ -16,9 +16,13 @@ namespace EXSYS.BLL.Mapping
             TypeAdapterConfig<Course, CourseResponse>.NewConfig()
                 .Map(des => des.Course_Id, src => src.Id)
 
-            .Map(dest => dest.UserCreated, src => src.CreatedBy.UserName);
+                .Map(dest => dest.UserCreated, src => src.CreatedBy.UserName);
 
+            TypeAdapterConfig<Question, QuestionResponse>
+             .NewConfig()
+             .Map(dest => dest.CourseName,
+                  src => src.Course.Name);
 
-        }
+                }
     }
 }

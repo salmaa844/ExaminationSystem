@@ -12,30 +12,28 @@ namespace EXSYS.DAL.Model
     {
         public string Title { get; set; }
 
+        public QuestionType Type { get; set; }
+
         public QuestionLevel Level { get; set; }
 
+        public decimal Mark { get; set; }
 
-        // Course
-        [ForeignKey("Course")]
+
+        // Question belongs to Course (Question Bank)
         public int CourseId { get; set; }
 
         public Course Course { get; set; }
 
 
-        // Instructor
-        [ForeignKey("Instructor")]
-        public int InstructorId { get; set; }
-
-        public Instructor Instructor { get; set; }
+        public ICollection<Choice> Choices { get; set; }
+           
 
 
-        // Exams that contain this question
         public ICollection<ExamQuestion> ExamQuestions { get; set; }
-            = new List<ExamQuestion>();
+            
 
 
-        // Students answers
         public ICollection<StudentAnswer> StudentAnswers { get; set; }
-            = new List<StudentAnswer>();
-    }
+    
+     }
 }

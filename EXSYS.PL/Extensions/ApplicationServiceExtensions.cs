@@ -17,6 +17,8 @@ namespace EXSYS.PL.Extensions
             Services.AddScoped<ICourseService, CourseService>();
             Services.AddScoped<IExamRepositry, ExamRepositry>();
             Services.AddScoped<ICourseRepositry, CourseRepositry>();
+            Services.AddScoped<IQuestionRepositry, QuestionRepositry>();
+            Services.AddScoped<IQuestionService, QuestionService>();
             return Services;
         }
     }
